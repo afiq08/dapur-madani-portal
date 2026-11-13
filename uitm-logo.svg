@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 140" role="img" aria-labelledby="title description">
-  <title id="title">Logo UiTM — placeholder prototaip</title>
-  <desc id="description">Lencana dan tulisan UiTM dengan nama Universiti Teknologi MARA.</desc>
-  <rect x="4" y="4" width="212" height="132" rx="18" fill="#ffffff"/>
-  <path d="M25 25h34v12H37v29h-12V25zm48 0h12v41H73V25zm24 0h16l10 23 10-23h16v41h-12V43l-14 25-14-25v23H97V25zm62 0h37v11h-12v30h-12V36h-13V25z" fill="#1f1e54"/>
-  <text x="110" y="96" fill="#1f1e54" font-family="Arial,sans-serif" font-size="29" font-weight="700" letter-spacing="1" text-anchor="middle">UiTM</text>
-  <path d="M46 107h128" stroke="#f7b731" stroke-width="4" stroke-linecap="round"/>
-  <text x="110" y="124" fill="#62637b" font-family="Arial,sans-serif" font-size="8" font-weight="600" letter-spacing="1.25" text-anchor="middle">UNIVERSITI TEKNOLOGI MARA</text>
-</svg>
