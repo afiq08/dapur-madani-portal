@@ -140,12 +140,12 @@ Kemudian buka `http://localhost:8000/`.
 4. Dalam **Build and deployment**, pilih **Deploy from a branch**.
 5. Pilih branch `main`, folder `/ (root)`, kemudian tekan **Save**.
 6. Selepas deployment selesai, buka `https://NAMA-PENGGUNA.github.io/NAMA-REPOSITORI/`. Fail `index.html` ialah pintu masuk lalai.
-7. Gantikan pautan contoh di bawah dengan URL repositori dan laman sebenar anda.
+7. Laman diterbitkan melalui GitHub Pages pada URL di bawah.
 
 ## Pautan projek
 
-- Repositori GitHub: [https://github.com/NAMA-PENGGUNA/NAMA-REPOSITORI](https://github.com/NAMA-PENGGUNA/NAMA-REPOSITORI)
-- GitHub Pages: [https://NAMA-PENGGUNA.github.io/NAMA-REPOSITORI/](https://NAMA-PENGGUNA.github.io/NAMA-REPOSITORI/)
+- Repositori GitHub: [https://github.com/afiq08/dapur-madani-portal](https://github.com/afiq08/dapur-madani-portal)
+- GitHub Pages: [https://afiq08.github.io/dapur-madani-portal/](https://afiq08.github.io/dapur-madani-portal/)
 
 ## Struktur direktori
 
