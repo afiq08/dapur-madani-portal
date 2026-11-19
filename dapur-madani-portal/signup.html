@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Daftar akaun prototaip pelajar bagi Sistem Dapur Madani dan Food Bank UiTM.">
+  <meta name="keywords" content="pendaftaran pelajar UiTM, daftar akaun, Dapur Madani, Food Bank">
+  <meta name="theme-color" content="#1f1e54">
+  <title>Pendaftaran Pelajar | Sistem Dapur Madani &amp; Food Bank UiTM</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="login-page">
+  <header class="login-topbar">
+    <a class="uitm-brand" href="index.html"><img src="assets/uitm-logo.svg" alt="Logo placeholder UiTM"><span class="brand-divider"></span><span class="brand-title">Sistem Dapur Madani<span>&amp; Food Bank Pelajar</span></span></a>
+    <a class="uitm-link" href="index.html"><i class="bi bi-arrow-left me-1"></i>Kembali log masuk</a>
+  </header>
+  <main class="signup-main">
+    <section class="signup-card">
+      <div class="login-mobile-logo"><img src="assets/uitm-logo.svg" alt="Logo placeholder UiTM"></div>
+      <span class="eyebrow">AKAUN PELAJAR</span>
+      <h1>Daftar akaun baharu</h1>
+      <p class="login-intro">Lengkapkan butiran untuk mendaftar ke portal kebajikan pelajar.</p>
+      <div id="signup-alert" class="alert d-none" role="alert" aria-live="polite"></div>
+      <form id="signup-form" novalidate>
+        <div class="mb-3"><label class="form-label" for="signup-name">Nama penuh</label><input class="form-control" id="signup-name" name="name" type="text" autocomplete="name" maxlength="100" required><div class="invalid-feedback">Masukkan nama penuh anda.</div></div>
+        <div class="mb-3"><label class="form-label" for="signup-ic">Nombor kad pengenalan / No. IC</label><input class="form-control" id="signup-ic" name="ic" type="text" inputmode="numeric" autocomplete="off" placeholder="020101-10-1234" pattern="[0-9]{6}-[0-9]{2}-[0-9]{4}" maxlength="14" required><div class="invalid-feedback">Gunakan format 020101-10-1234.</div><div class="form-text">No. IC hanya disemak pada borang dan tidak dihantar atau disimpan.</div></div>
+        <div class="mb-3"><label class="form-label" for="signup-matric">Nombor matrik UiTM</label><input class="form-control" id="signup-matric" name="matric" type="text" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" autocomplete="username" placeholder="2023123456" required><div class="invalid-feedback">Masukkan nombor matrik 10 digit.</div><div class="form-text">Alamat e-mel dijana sebagai <strong id="signup-email-preview">0000000000@student.uitm.edu.my</strong></div></div>
+        <div class="mb-3"><label class="form-label" for="signup-password">Kata laluan</label><input class="form-control" id="signup-password" name="password" type="password" autocomplete="new-password" minlength="8" maxlength="128" required><div class="invalid-feedback">Gunakan sekurang-kurangnya 8 aksara.</div></div>
+        <div class="mb-3"><label class="form-label" for="signup-password-confirm">Pengesahan kata laluan</label><input class="form-control" id="signup-password-confirm" name="passwordConfirm" type="password" autocomplete="new-password" minlength="8" maxlength="128" required><div class="invalid-feedback">Pastikan kedua-dua kata laluan sepadan.</div></div>
+        <button class="btn btn-uitm w-100" type="submit">Daftar akaun <i class="bi bi-arrow-right ms-2"></i></button>
+      </form>
+      <p class="prototype-note"><i class="bi bi-shield-exclamation me-1"></i>Prototip akademik. Akaun disimpan pada peranti ini sahaja. Jangan gunakan IC atau kata laluan sebenar.</p>
+      <p class="signup-prompt mb-0">Sudah mempunyai akaun? <a href="index.html">Log masuk</a></p>
+    </section>
+  </main>
+  <footer class="login-footer"><span>© 2026 UiTM · Sistem Dapur Madani &amp; Food Bank Pelajar</span><nav aria-label="Pautan portal"><a href="https://www.uitm.edu.my/" target="_blank" rel="noopener noreferrer">Portal UiTM</a><a href="https://istudent.uitm.edu.my/" target="_blank" rel="noopener noreferrer">iStudent</a></nav></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
